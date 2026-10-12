@@ -1,5 +1,5 @@
 
-import pandas as pd
+import streamlit as st
 
 # YEU CAU 1: TAO DATAFRAME
 data = {
@@ -35,7 +35,7 @@ df["Tong_ket"] = df["Tong_ket"].round(2)
 
 # HIEN THI BANG DU LIEU
 print("BANG DIEM SINH VIEN")
-display(df)
+st.dataframe(df).
 
 
 # YEU CAU 3: XEP LOAI SINH VIEN
